@@ -782,6 +782,7 @@
     <F n="Eurolite-LED-ACS-BAR-12" m="LED ACS BAR-12"/>
     <F n="Eurolite-LED-B-40-Beam" m="LED B-40 Beam"/>
     <F n="Eurolite-LED-Bar-2-RGBA-252_10_40__Indoor" m="LED Bar 2 RGBA 252/10 40° Indoor"/>
+    <F n="Eurolite-LED-Bar-12-QCL-RGBW" m="LED Bar 12 QCL RGBW"/>
     <F n="Eurolite-LED-Bar-RGB-252_10_40__Indoor" m="LED Bar RGB 252/10 40° Indoor"/>
     <F n="Eurolite-LED-CBB-3-COB-RGB-3x15W-Bar" m="LED CBB-3 COB RBG 3x15W Bar"/>
     <F n="Eurolite-LED-CLS-9-QCL-RGBW-9x8W-12" m="LED CLS-9 QCL RGBW 9x8W 12"/>
@@ -1609,6 +1610,7 @@
     <F n="Showtec-QFX-Multi" m="QFX Multi"/>
     <F n="Showtec-Quatro" m="Quatro"/>
     <F n="Showtec-Shark-Beam-FX-One" m="Shark Beam FX One"/>
+    <F n="Showtec-Shark-Spot-one" m="Shark Spot one"/>
     <F n="Showtec-Shark-Wash-One" m="Shark Wash One"/>
     <F n="Showtec-Slidebar-4" m="Slidebar 4"/>
     <F n="Showtec-Spectral-850-RGBA-Tour" m="Spectral 850 RGBA Tour LED Spot"/>
@@ -1720,6 +1722,7 @@
     <F n="Stairville-SC-X50-MKII" m="SC-X50 MKII"/>
     <F n="Stairville-SC250H" m="SC250H"/>
     <F n="Stairville-SF-1500" m="SF-1500"/>
+    <F n="Stairville-Show-Bar-Pro-16x10-RGBAW-IP65" m="Show Bar Pro 16x10 RGBAW IP65"/>
     <F n="Stairville-Stage-PAR-CX-2-RGBAW" m="Stage PAR CX-2 RGBAW"/>
     <F n="Stairville-Tri-Flat-PAR-Profile-5x3W-RGB" m="Tri Flat PAR Profile 5x3W RGB"/>
     <F n="Stairville-TRI-LED-Bundle-Complete" m="Stage TRI LED Bundle Complete"/>
