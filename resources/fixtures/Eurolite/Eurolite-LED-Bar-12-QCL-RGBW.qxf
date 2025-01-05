@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.7</Version>
+  <Author>Klarin</Author>
+ </Creator>
+ <Manufacturer>Eurolite</Manufacturer>
+ <Model>LED Bar-12 QCL RGBW</Model>
+ <Type>LED Bar (Beams)</Type>
+ <Channel Name="Rot">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">red</Capability>
+ </Channel>
+ <Channel Name="green">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">green</Capability>
+ </Channel>
+ <Channel Name="blue">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">blue</Capability>
+ </Channel>
+ <Channel Name="white">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">white</Capability>
+ </Channel>
+ <Channel Name="color temprature">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="9">none</Capability>
+  <Capability Min="10" Max="29">2700K</Capability>
+  <Capability Min="30" Max="49">3200K</Capability>
+  <Capability Min="50" Max="69">3400K</Capability>
+  <Capability Min="70" Max="89">4200K</Capability>
+  <Capability Min="90" Max="109">4900K</Capability>
+  <Capability Min="110" Max="129">5600K</Capability>
+  <Capability Min="130" Max="149">6000K</Capability>
+  <Capability Min="150" Max="169">6500K</Capability>
+  <Capability Min="170" Max="189">7500K</Capability>
+  <Capability Min="190" Max="255">8000K</Capability>
+ </Channel>
+ <Channel Name="Dimmer">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">Dimmer</Capability>
+ </Channel>
+ <Channel Name="Strobe">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="9">none</Capability>
+  <Capability Min="10" Max="255">strobo speed</Capability>
+ </Channel>
+ <Channel Name="auto DMX">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="9">none</Capability>
+  <Capability Min="10" Max="119">Auto DMX</Capability>
+  <Capability Min="120" Max="255">music reacting mode over DMX</Capability>
+ </Channel>
+ <Channel Name="auto DMX speed">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255">DMX auto mode speed</Capability>
+ </Channel>
+ <Mode Name="9 channel mode">
+  <Channel Number="0" ActsOn="0">Rot</Channel>
+  <Channel Number="1" ActsOn="1">green</Channel>
+  <Channel Number="2" ActsOn="2">blue</Channel>
+  <Channel Number="3" ActsOn="3">white</Channel>
+  <Channel Number="4" ActsOn="4">color temprature</Channel>
+  <Channel Number="5" ActsOn="5">Dimmer</Channel>
+  <Channel Number="6" ActsOn="6">Strobe</Channel>
+  <Channel Number="7" ActsOn="7">auto DMX</Channel>
+  <Channel Number="8" ActsOn="8">auto DMX speed</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="3" Width="1058" Height="65" Depth="100"/>
+  <Lens Name="Other" DegreesMin="17" DegreesMax="17"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Layout Width="12" Height="1"/>
+  <Technical PowerConsumption="24" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>
